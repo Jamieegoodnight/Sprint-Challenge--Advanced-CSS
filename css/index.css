@@ -197,13 +197,6 @@ header nav a {
     margin: 20px;
   }
 }
-header h2 {
-  align-self: flex-start;
-}
-header img {
-  border-radius: 5px;
-  padding-bottom: 50px;
-}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -225,8 +218,8 @@ footer {
 }
 @media (max-width: 500px) {
   .home .intro img {
-    margin-left: 3%;
-    width: 95%;
+    margin-left: 2%;
+    width: 97%;
   }
 }
 .home .space-images {
