@@ -1,1 +1,35 @@
-// Navigation code here
+
+header {
+    .center();
+    flex-direction: column;
+    background-color: @nav-bg;
+    
+    @media @mobile {
+      h1 {
+        font-size: 4.2rem;
+       }
+     }
+    
+    nav {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      background-color: @nav-bg;
+    
+      @media @mobile {
+        margin-top: 20px;
+        }
+  
+      a {
+        margin: 30px;
+        text-decoration: none;
+        font-size: 1.6rem;
+        color: black;
+        font-weight: bold;
+  
+        @media @mobile {
+          margin: 20px;
+         }
+       }
+    }
+   
+}
